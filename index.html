@@ -2,20 +2,95 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Plataforma Lattes</title>
+    <title>Plataforma Lattes - Pesquisa e Análise de Currículos CNPq</title>
     <meta name="viewport" content="initial-scale=1, width=device-width" />
-    <!-- Fonts to support Material Design -->
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Plataforma Lattes - Sistema de busca e análise de currículos da plataforma Lattes CNPq. Encontre pesquisadores, visualize publicações e explore dados acadêmicos." />
+    <meta name="keywords" content="Lattes, CNPq, pesquisa, currículo, acadêmico, publicações, pesquisadores, Brasil, ciência" />
+    <meta name="author" content="Plataforma Lattes" />
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="pt-BR" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://seudominio.com/" />
+    <meta property="og:title" content="Plataforma Lattes - Pesquisa e Análise de Currículos CNPq" />
+    <meta property="og:description" content="Sistema de busca e análise de currículos da plataforma Lattes CNPq. Encontre pesquisadores, visualize publicações e explore dados acadêmicos." />
+    <meta property="og:locale" content="pt_BR" />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://seudominio.com/" />
+    <meta property="twitter:title" content="Plataforma Lattes - Pesquisa e Análise de Currículos CNPq" />
+    <meta property="twitter:description" content="Sistema de busca e análise de currículos da plataforma Lattes CNPq. Encontre pesquisadores, visualize publicações e explore dados acadêmicos." />
+    
+    <!-- Favicon -->
+    <link rel="alternate icon" href="/favicon.ico" />
+    
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="/manifest.json" />
+    
+    <!-- Apple Touch Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Plataforma Lattes" />
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://seudominio.com/" />
+    
+    <!-- Structured Data - JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Plataforma Lattes",
+      "description": "Sistema de busca e análise de currículos da plataforma Lattes CNPq",
+      "url": "https://seudominio.com",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://seudominio.com/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Plataforma Lattes",
+
+      }
+    }
+    </script>
+
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" as="style" />
+    <link rel="preload" href="https://fonts.googleapis.com/icon?family=Material+Icons" as="style" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      media="print" onload="this.media='all'"
     />
-    <!-- Icons to support Material Design -->
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      />
+    </noscript>
+
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      media="print" onload="this.media='all'"
     />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      />
+    </noscript>
+
   </head>
   <body>
     <div id="root"></div>

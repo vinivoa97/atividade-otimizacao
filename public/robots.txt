@@ -1,0 +1,23 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://seudominio.com/sitemap.xml
+
+# Regras específicas para bots de pesquisa
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Bloquear acesso a arquivos sensíveis (se houver)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /.env
+Disallow: /config/
+
+# Permitir acesso a recursos importantes
+Allow: /src/assets/
+Allow: /images/
+Allow: /icons/
