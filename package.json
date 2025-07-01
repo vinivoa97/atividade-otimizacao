@@ -12,15 +12,21 @@
     "@emotion/styled": "latest",
     "@mui/icons-material": "latest",
     "@mui/material": "latest",
+    "@mui/x-charts": "^8.6.0",
     "react": "latest",
     "react-dom": "latest",
+    "react-helmet-async": "^2.0.5",
     "react-material-ui-carousel": "^3.4.2",
+    "react-router-dom": "^7.6.3",
+    "recharts": "^3.0.2",
     "typescript": "latest"
   },
   "devDependencies": {
     "@types/react": "latest",
     "@types/react-dom": "latest",
     "@vitejs/plugin-react": "latest",
+    "imagemin": "^9.0.1",
+    "imagemin-webp": "^8.0.0",
     "vite": "latest"
   }
 }
